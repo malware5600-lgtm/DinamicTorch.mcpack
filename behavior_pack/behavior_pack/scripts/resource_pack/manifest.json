@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tocha Dinâmica - Recursos",
+    "description": "Pacote visual para acompanhar o Behavior Pack.",
+    "uuid": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Recursos visuais",
+      "type": "resources",
+      "uuid": "3f4e5d6c-7b8a-9f0e-1d2c-3b4a5f6e7d8c",
+      "version": [1, 0, 0]
+    }
+  ]
+}
