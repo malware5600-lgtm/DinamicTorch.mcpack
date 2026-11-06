@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tocha Dinâmica - Comportamento",
+    "description": "Permite que tochas iluminem o ambiente ao serem seguradas.",
+    "uuid": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script de Iluminação",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d1646735-3343-4b69-82bc-3a454238e83b",
+      "version": [1, 0, 0],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
